@@ -1,0 +1,5 @@
+n = float(input('Digite um número entre 0 e 9999:'))
+print(f'Unidade:{n // 1 % 10:.0f}')
+print(f'Dezena:{n // 10 % 10:.0f}')
+print(f'Centena:{n // 100 % 10:.0f}')
+print(f'Milhar:{n // 1000 % 10:.0f}')
