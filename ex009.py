@@ -1,5 +1,5 @@
-n = int(input('Digite um número inteiro:'))
-print('TABUADA DE {}')
+n = int(input('Digite um número inteiro: '))
+print(f'TABUADA DE {n}')
 print(f'{n} * 0 = {n*0}')
 print(f'{n} * 1 = {n*1}')
 print(f'{n} * 2 = {n*2}')
